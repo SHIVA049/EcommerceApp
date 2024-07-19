@@ -38,7 +38,7 @@ public class CheckoutPage extends AbstractComponent {
     WebElement checkoutEle;
     
    
-    
+    //code to Select the Country
     
     public void selectCountry(String countryName) {
     	

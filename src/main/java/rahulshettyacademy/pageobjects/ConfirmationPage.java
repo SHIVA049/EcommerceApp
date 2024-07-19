@@ -26,7 +26,7 @@ public class ConfirmationPage extends AbstractComponent {
     @FindBy(css=".hero-primary")
 	WebElement confirmationMessage;
     
-    
+    //Code to check the confirmation Message
     public String getConfirmationMessage() {
     	
     	String confirmMessage=confirmationMessage.getText();
